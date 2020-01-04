@@ -1,6 +1,6 @@
 # openmoney-network
 
-This is the client side application that accesses the [openmoney-api](https://github.com/deefactorial/openmoney-api).
+This is the client side application that accesses the [openmoney-api](https://github.com/jethro-swan/openmoney-api).
 
 # Public Instance
 
@@ -9,7 +9,7 @@ This is the client side application that accesses the [openmoney-api](https://gi
 # Installation
 
 ```sh
-git clone https://github.com/deefactorial/openmoney-network
+git clone https://github.com/jethro-swan/openmoney-network
 cd openmoney-network
 npm install
 ```
@@ -24,7 +24,7 @@ grunt
 
 # Local Hosting
 
-You must have the [openmoney-api](https://github.com/deefactorial/openmoney-api) installed and running on port 8080. Nginx is used to host the client code base and api end points on the same port(80) by using a reverse proxy of the port 8080 which is running the api.
+You must have the [openmoney-api](https://github.com/jethro-swan/openmoney-api) installed and running on port 8080. Nginx is used to host the client code base and api end points on the same port(80) by using a reverse proxy of the port 8080 which is running the api.
 
 ```sh
 sudo apt-get install nginx
@@ -39,6 +39,9 @@ It is strongly recommended to setup ssl for nginx if you are hosting locally, [L
 # License
 
 Copyright [2016] [Dominique Legault]
+
+Minor revisions:
+  2020/01/04 John Waters
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
