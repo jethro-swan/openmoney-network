@@ -26,7 +26,7 @@ grunt
 
 You must have the [openmoney-api](https://github.com/jethro-swan/openmoney-api) installed and running on port 8080. Nginx is used to host the client code base and API end points on the same port(80) by using a reverse proxy of the port 8080 which is running the API.
 
-# (a) Remote hosting in VM
+## (a) Remote hosting in VM
 
 If the server is already running a number of applications via Apache2 it may be more convenient to create a VM (e.g. using VirtualBox) with a minimal installation of Ubuntu 16.04 or 18.04.  The sample Nginx file assumes the user is "om" (/home/om/).
 
@@ -37,7 +37,7 @@ sudo apt-get install nginx
 sudo cp openmoney-network.nginx.conf /etc/nginx/sites-available/default
 sudo service nginx reload
 ```
-# (b) Local Hosting (on development machine)
+## (b) Local Hosting (on development machine)
 
 ```sh
 sudo apt-get install nginx
@@ -47,7 +47,7 @@ sudo service nginx reload
 google-chrome http://localhost
 ```
 
-It is strongly recommended to setup ssl for Nginx if you are hosting locally, [Lets Encrypt](https://letsencrypt.org/) is a free service to get SSL certificates.
+It is strongly recommended to set up SSL for Nginx if you are hosting locally. [LetsEncrypt](https://letsencrypt.org/) is a free service to get SSL certificates.
 
 # License
 
