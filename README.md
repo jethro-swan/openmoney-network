@@ -28,7 +28,7 @@ You must have the [openmoney-api](https://github.com/jethro-swan/openmoney-api) 
 
 #### (a) Remote hosting in VM
 
-If the server is already running a number of applications via Apache2 it may be more convenient to create a VM (e.g. using VirtualBox) with a minimal installation of Ubuntu 19.10.  The sample Nginx file assumes the user is "om" (/home/om/).
+If the server is already running a number of applications via Apache2 it may be more convenient to create a VM (e.g. using VirtualBox) with a minimal installation of Ubuntu 20.04 or 19.10.  The sample Nginx file assumes the user is "om" (/home/om/).
 
 In this case the host machine's Apache2 can be used to reverse proxy the VM's port 8080 to host port 80 and to provide the SSL layer.
 
@@ -53,7 +53,7 @@ It is strongly recommended to set up SSL for Nginx if you are hosting locally. [
 
 Copyright [2016] [Dominique Legault]
 
-Minor revisions: 2020/01/04 - 2020/03/23 John Waters
+Minor revisions: 2020/01/04 - 2020/04/29 John Waters
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
