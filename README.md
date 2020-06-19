@@ -1,6 +1,6 @@
 ## openmoney-network
 
-This is the client side application that accesses the [openmoney-api](https://github.com/jethro-swan/openmoney-api).
+This is the client side application that accesses the [openmoney-api](https://github.com/om-tools/openmoney-api).
 
 ### Public Instance
 
@@ -9,7 +9,7 @@ This is the client side application that accesses the [openmoney-api](https://gi
 ### Installation
 
 ```sh
-git clone https://github.com/jethro-swan/openmoney-network
+git clone https://github.com/om-tools/openmoney-network
 cd openmoney-network
 npm install
 ```
@@ -24,7 +24,7 @@ grunt
 
 ### Hosting
 
-You must have the [openmoney-api](https://github.com/jethro-swan/openmoney-api) installed and running on port 8080. Nginx is used to host the client code base and API end points on the same port(80) by using a reverse proxy of the port 8080 which is running the API.
+You must have the [openmoney-api](https://github.com/om-tools/openmoney-api) installed and running on port 8080. Nginx is used to host the client code base and API end points on the same port(80) by using a reverse proxy of the port 8080 which is running the API.
 
 #### (a) Remote hosting in VM
 
